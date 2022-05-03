@@ -21,6 +21,14 @@ transition for theme switch
     flex-direction: column;
 }
 
+.select .arrow {
+    transition: transform 300ms ease-in-out;
+}
+
+.select:hover .arrow {
+    transform: rotate(180deg);
+}
+
 @keyframes select-anim {
     0% {
         max-height: 0;

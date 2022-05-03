@@ -7,6 +7,7 @@ import ContryDetails from "./pages/CountryDetails";
 import CountriesContext, { CountriesContextType } from "./contexts/CountriesContext";
 import { getAllCountries } from "./api/request";
 import Footer from "./components/Footer";
+import { productionPath } from "./utils/utils";
 
 function App() {
 
@@ -31,19 +32,17 @@ function App() {
     loadState
   }
 
-  console.log(contextValue)
-
   useEffect(loadContries, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <CountriesContext.Provider value={contextValue}>
         <div className=" min-h-screen flex flex-col justify-between text-very-dark-blue-light bg-very-light-gray dark:text-white dark:bg-very-dark-blue-dark stroke-very-dark-blue-light dark:stroke-white">
           <Header />
           <main className="mt-5 max-w-6xl w-full m-auto">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/countries/:country" element={<ContryDetails />} />
+              <Route path={productionPath("/")} element={<Home />} />
+              <Route  path={productionPath("/countries/:country")} element={<ContryDetails />} />
             </Routes>
           </main>
           <Footer />
