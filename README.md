@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/BOCOVO/chall-country)
-- Live Site URL: [Add live site URL here](https://bocovo.github.io/chall-country)
+- Solution URL: [On Github Page](https://github.com/BOCOVO/chall-country)
+- Live Site URL: [Github Repo](https://bocovo.github.io/chall-country)
 
 ## My process
 
@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BOCOVO)
+- Frontend Mentor - [@BOCOVO](https://www.frontendmentor.io/profile/BOCOVO)
 - LinkedIn - [@juste_bocovo](https://www.linkedin.com/in/juste-bocovo-84a5a51a2/)
 - Twitter - [@bocovo_juste](https://www.twitter.com/juste_bocovo)

@@ -2,6 +2,7 @@
     "name": "chall-contrie",
     "version": "0.1.0",
     "private": true,
+    "homepage": "./",
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^13.0.0",
@@ -10,7 +11,6 @@
         "@types/node": "^16.7.13",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",
-        "global": "^4.4.0",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-ionicons": "^4.2.0",
@@ -48,6 +48,7 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.5",
+        "gh-pages": "^3.2.3",
         "postcss": "^8.4.12",
         "tailwindcss": "^3.0.24"
     }
